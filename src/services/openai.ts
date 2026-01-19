@@ -1,7 +1,7 @@
 import { ChatMessage } from '../types';
 
 // URL del backend
-const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || 'http://localhost:3000';
+const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || 'https://chatbot-emocional-s63h.onrender.com';
 
 export const sendMessageToOpenAI = async (
   messages: ChatMessage[]
